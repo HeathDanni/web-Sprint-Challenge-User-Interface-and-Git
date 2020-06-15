@@ -212,21 +212,41 @@ footer nav a {
     background-color: dodgerblue;
 }
 
-.container {
+.about-page p {
+    margin-bottom: 20px;
+}
+
+.about-page .about h1, .about-page .about p {
+    margin-left: 20px;
+}
+
+.about-page img {
+    margin-bottom: 20px;
+}
+
+.about-page div a {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+.about-page hr {
+    border-style: dashed;
+}
+
+.about-page .flex-container hr {
+    margin: 20px 35px 30px 0;
+}
+
+.about-page .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-.about-page > section {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin: auto;
-    width: 300px;
-}
-
-.about-page a {
-    padding: 2px;
-    border: 1px solid black;
-    border-radius: 8px;
+.about-page .flex-container section {
+    width: 400px;
+    margin-top: 20px;
 }
