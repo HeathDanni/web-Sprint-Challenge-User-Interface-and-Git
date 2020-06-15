@@ -63,7 +63,30 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-    
+    width: 800px;
+    margin: auto;
+}
+
+.header-section {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header nav {
+    width: 700px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo-img {
+    margin: 20px 0;
 }
 
 p {
