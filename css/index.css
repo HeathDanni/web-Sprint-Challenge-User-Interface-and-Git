@@ -62,6 +62,10 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+header {
+    
+}
+
 p {
     line-height: 1.4;
 }
@@ -143,4 +147,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+ .boxes > .box:first-child {
+    background-color: teal;
+}
+
+.boxes > .box:nth-child(2) {
+    background-color: gold;
+}
+
+.boxes > .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.boxes > .box:nth-child(4) {
+    background-color: coral;
+}
+
+.boxes > .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.boxes > .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.boxes > .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.boxes > .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.boxes > .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.boxes > .box:nth-child(10) {
+    background-color: dodgerblue;
 }
